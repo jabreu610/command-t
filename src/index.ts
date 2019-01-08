@@ -1,6 +1,7 @@
-import data from './assets/aerial.json';
+import AppleVideoBackground from './apple-video-background.component';
 
-console.log(data);
-const div = document.createElement('div');
-div.innerHTML = 'Hello World!!';
-document.body.appendChild(div);
+if (process.env.NODE_ENV !== 'production') {
+  require('./index.html');
+}
+
+customElements.define('apple-video-background', AppleVideoBackground);

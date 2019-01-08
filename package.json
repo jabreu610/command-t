@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^10.12.18",
     "clean-webpack-plugin": "^1.0.0",
     "prettier": "1.15.3",
+    "raw-loader": "^1.0.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.2",
     "webpack": "^4.28.3",
